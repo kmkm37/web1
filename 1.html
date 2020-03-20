@@ -1,22 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>경진</title>
-<meta charset="utf-8">
-</head>
-<body>
-<h1><a href="index.html"정경진(Jeong Kyung Jin)</a></h1>
-<ol>
-  <li><a href="1.html"HTML</a></li>
-  <li><a href="2.html"CSS</a></li>
-  <li><a href="3.html"JavaScript</a></li>
-</ol>
-<h2>정보</h2>
-저의 이름은 <strong><u>정경진</u></strong> 입니다.<br>
-나이는 25살이고, 서울에 거주중이며 <a href="https://www.joongbu.ac.kr/ipsi/intro/index.html" target="
-">
-중부대학교</a>를 다니고 있습니다.
-<p>저의 취미는 음악감상과 게임입니다.<br>
-<br>감사합니다.</br>
-<img src="coding.jpg" width="50%">
-</body>
+  <head>
+    <title>WEB1-Welcome</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+      margin: 0;
+    }
+    }
+      a {
+        color:black;
+        text-decoration: none;
+      }
+      h1{
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 20px;
+      }
+      ol{
+        border-right: 1px solid gray;
+        width: 150px;
+      margin: 0;
+      padding: 30px;
+      }
+#grid{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+}
+ h1{
+   border-bottom:none;
+ }
+}
+}
+
+
+}
+      </style>
+  </head>
+  <body>
+    <h1><a href="index.html">WEB</a></h1>
+      <div id="grid">
+      <ol>
+        <li><a href="1.html" class>HTML</a></li>
+          <li><a href="2.html"class= id=active>CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+            <li><a href="4.html">PHP</a></li>
+          </ol>
+            <div>
+            <h2>HTML</h2>
+<p>월드와이드웹(WorldWideWeb)은 세계 최초의 웹 브라우저이자, 위지윅 HTML 편집 프로그램이다. 1991년 2월 26일에 팀 버너스리가 이 프로그램을 처음 소개하였으며 넥스트스텝 플랫폼 위에서 동작한다. 나중에는 월드 와이드 웹의 이름과 충돌을 피하기 위해 넥서스로 이름이 바뀌었다.</p>
+</p></div>
+ </body>
+</html>
